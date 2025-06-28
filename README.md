@@ -23,6 +23,10 @@ CMD ["python3", "your_script.py"]
 ```bash
 docker build -t my-python-app:panda .
 
+3. Run the Docker container:
+```bash
+docker run -it my-python-app:panda
+
 
 ## Restart docker containers
 docker ps -a
